@@ -9,7 +9,7 @@ function NavPC() {
             <div className="ContainerLogoNavPC">
                 <p className="TitleNavPC">
                     <Link to="/" >
-                        l'Atelier Photo Montpellier
+                        Moon Developpement
                     </Link>
                 </p>
             </div>
@@ -18,17 +18,6 @@ function NavPC() {
                     moduleMenuUl={style.MenuUlPC}
                     moduleMenuLi={style.MenuLiPC}
                     moduleMenuLink={style.MenuLinkPC}
-                    moduleSubMenuUl={style.SubMenuUlPC}
-                    moduleSubMenuLi={style.SubMenuLiPC}
-                    moduleSubMenuLink={style.SubMenuLinkPC}
-                    moduleSpanPortraits={style.SpanPortraitsPC}
-                          
-                    moduleSubMenuPortraits={style.SubMenuPortraitsPC}
-
-                    moduleButtonSubMenu={style.ButtonSubMenuPC}
-                    moduleSubMenuLiTarget1={style.SubMenuLiTarget1PC}
-                    moduleSubMenuLiTarget2={style.SubMenuLiTarget2PC}
-                    moduleSubMenuLiTarget3={style.SubMenuLiTarget3PC}
                 />
             </div>
         </nav>

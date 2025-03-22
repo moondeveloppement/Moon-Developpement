@@ -1,18 +1,19 @@
 import style from './HomePage.module.css';
 import NavRoot from '../../components/NavRoot/NavRoot';
+import HomeRoot from '../../components/HomeRoot/HomeRoot';
 
 function HomePage() {
   return (
     <div className={style.HomePage}>
-      <header className={style.header}>
+      <header className={style.Header}>
         <NavRoot />
       </header>
 
-      <main className={style.main}>
-        <h1></h1>
+      <main className={style.Main}>
+        <HomeRoot />
       </main>
 
-      <footer className={style.footer}></footer>
+      <footer className={style.Footer}></footer>
     </div>
   );
 }

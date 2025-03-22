@@ -90,7 +90,7 @@
     display: block;
     width: 35px;
     height: 5px;
-    background-color: var(--textColorMenuBurger);
+    background-color: var(--ColorBlack);
     margin: 0.5rem 0rem;
 }
 @media (max-width: 250px) {
@@ -109,7 +109,7 @@
 /*-----------------------------------------------*/
 
 /*Contenu du Menu Burger*/
-.sideNav>div {
+.sideNav > div {
     display: flex;
     justify-content: start;
     padding: 0rem 0rem 3rem 0rem;

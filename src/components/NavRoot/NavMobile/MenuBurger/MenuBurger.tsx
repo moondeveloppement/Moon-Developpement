@@ -29,19 +29,11 @@ function MenuBurger() {
                          moduleMenuUl={style.MenuUlMobile}
                          moduleMenuLi={style.MenuLiMobile}
                          moduleMenuLink={style.MenuLinkMobile}
-                         moduleSubMenuUl={style.SubMenuUlMobile}
-                         moduleSubMenuLi={style.SubMenuLiMobile}
-                         moduleSubMenuLink={style.SubMenuLinkMobile}
-                         moduleSpanPortraits={style.SpanPortraitsMobile}
 
                          moduleMenuLiTarget1={style.MenuLiTarget1Mobile}
                          moduleMenuLiTarget2={style.MenuLiTarget2Mobile}
                          moduleMenuLiTarget3={style.MenuLiTarget3Mobile}
                          moduleMenuLiTarget4={style.MenuLiTarget4Mobile}
-                         moduleMenuLiTarget5={style.MenuLiTarget5Mobile}
-                         moduleMenuLiTarget6={style.MenuLiTarget6Mobile}
-
-                         moduleButtonSubMenu={style.ButtonSubMenuMobile}
                      />
 
 

@@ -1,3 +1,7 @@
+@import "./assets/Fonts/Quicksand/stylesheet.css";
+@import "./assets/Fonts/AnneSignature/stylesheet.css";
+
+
 :root {
     /* Couleur des textes */
     --ColorPrincipal: #DCA54A;
@@ -11,6 +15,14 @@
     --ColorLink: rgb(14, 83, 193);
     --backgroundBlack: black;
     --backgroundWhite: white;
+    --BackgroudMenuBurger: rgba(218, 216, 216, 0.882);
+
+    /* Autre paramètre de dépendance */
+    --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+
+    /*Couleur des textes du Footer*/
+        --Copyright: #ff007f;
+
 
     /*Logique taille police d'écriture site*/
          --font-size-root: 16px; /*Ref size, dimensionne tout le site*/
@@ -23,4 +35,21 @@
          --h6: calc(var(--font-size-root) - 5px); /*11px*/
          --h7: calc(var(--font-size-root) - 7px); /*9px*/
          --h8: calc(var(--font-size-root) - 8px); /*8px*/
+
+    /* Liste des Z-index */
+         --z-index_-2: -2; /* NavMobile.css et NavPC.css : Même logique : Background en lien avec l'opacité de l'img vague */
+         --z-index_-1: -1; /* NavMobile.css et NavPC : Même logique : Img de vague transparent */
+         --z-index_1: 1; /* MenuNavRoot.module.css : Button de fermeture du subMenu dans la NavPC */
+         --z-index_4: 4; /* MenuNavRoot.module.css : Position du sous-menu de Portrait dans NavPC via des props */
+         --z-index_5: 5; /* MenuNavRoot.module.css : Etage du sous-menu de Portrait dans NavPC via des props */
+         --z-index_9: 9; /* NavMobile.css : Bouton-écran de fermeture MenuBurger div = viewport */
+         --z-index_10: 10; /* NavMobile.css : Position du MenuBurger */
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
 }

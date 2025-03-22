@@ -12,7 +12,7 @@ function NavMobile() {
                 <div className={style.ContainerLogoNavMobile}>
                     <p className={style.TitleNavMobile}>
                         <Link to="/">
-                            l'Atelier Photo Montpellier
+                            Moon Developpement
                         </Link>
                     </p>
                 </div>
