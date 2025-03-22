@@ -1,0 +1,12 @@
+.HomeMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+@media (min-width: 800.02px) {
+    .HomeMobile {
+        display: none;
+    }
+}

@@ -1,9 +1,11 @@
 import style from './HomePC.module.css';
 
+import HomeRootComposantA from '../HomeComposantRoot/HomeRootComposantA/HomeRootComposantA';
+
 function HomePC() {
     return (
         <section className={style.HomePC}>
-            <h2>HomePC</h2>
+            <HomeRootComposantA />
         </section>
     )
 }
