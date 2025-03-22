@@ -45,30 +45,12 @@
     font-weight: normal;
     color: var(--ColorBlack);
     text-decoration: none;
-    width: 295px;
+    width: 250px;
 }
 /* Container Navigation */
 .ContainerNavigationNavPC {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-}
-@media (max-width: 845px) {
-    .ContainerNavigationNavPC {
-        width: calc(100% - 295px - 24px);
-    }
-    
-}
-@media (min-width: 845px) and (max-width: 895px) {
-    .ContainerNavigationNavPC {
-        width: 500px;
-    }
-    
-}
-@media (min-width: 895px) and (max-width: 945px) {
-    .ContainerNavigationNavPC {
-        width: 550px;
-    }
-    
+    width: 100%;
 }
