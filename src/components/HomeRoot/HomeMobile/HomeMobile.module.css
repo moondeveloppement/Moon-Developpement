@@ -1,12 +1,12 @@
-.HomePC {
+.HomeMobile {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 100%;
 }
-@media (max-width: 800px) {
-    .HomePC {
+@media (min-width: 800.02px) {
+    .HomeMobile {
         display: none;
     }
 }
