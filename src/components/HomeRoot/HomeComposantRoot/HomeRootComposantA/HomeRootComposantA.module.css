@@ -1,0 +1,54 @@
+.HomeRootComposantA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127, 127, 127);
+    width: 100%;
+    height: calc(100vh - 64.5px);
+}
+
+/* Container 1 */
+.img {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    margin: 0px 20px 0px 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.img > img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* Container 2 */
+.ContainerIntro {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 120px 0px 0px 20px;
+    border: 0px;
+    padding: 0px;
+}
+
+.Title {
+    font-size: var(--h1);
+    color: var(--Colorblack);
+    width: 400px;
+}
+
+.Text {
+    font-size: var(--h3);
+    color: var(--Colorblack);
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
