@@ -1,12 +1,4 @@
-:root {
-    --ColorPrimary: #6b9e8c;
-    --ColorPrimaryDark: #507e6d;
-    --ColorLight: #f7f9f9;
-    --ColorDark: #2e2e2e;
-    --TextSize: 1rem;
-    --TitleSize: 1.4rem;
-    --Padding: 24px;
-  }
+@import "../../root.css";
   
   .AnxieteRoot {
     width: calc(100% - 48px);

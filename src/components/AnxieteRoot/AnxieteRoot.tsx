@@ -1,4 +1,5 @@
 import style from "./AnxieteRoot.module.css";
+import { Link } from "react-router-dom";
 
 function AnxieteRoot() {
     return (
@@ -96,7 +97,7 @@ function AnxieteRoot() {
                     <p className={style.CTA_Text}>
                         Reprenez le contrôle avec bienveillance et redonnez à votre esprit la sérénité qu’il mérite.
                     </p>
-                    <a href="/contact" className={style.CTA_Button}>🌟 Me contacter</a>
+                    <Link to="/contact" className={style.CTA_Button}>🌟 Me contacter</Link>
                 </div>
             </div>
         </section>

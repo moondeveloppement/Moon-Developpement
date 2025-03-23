@@ -1,71 +1,102 @@
-.LacherPriseRoot {
+@import "../../root.css";
+  
+  .LacherPriseRoot {
+    width: calc();
+    padding: var(--PaddingA);
+    background: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 100%;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-}
-
-.ContainerTitle {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-
-.TitleH1 {
-    font-size: calc(var(--h1) + 2px);
+  }
+  
+  .Header {
     text-align: center;
-    color: var(--ColorBlack);
-    margin: 20px 24px 20px 24px;
-    padding: 0px;
-    border: 0px;
-    width: 100%;
-}
-
-.LacherPriseRootComposantA,
-.LacherPriseRootComposantB, 
-.LacherPriseRootComposantC, 
-.LacherPriseRootComposantD, 
-.LacherPriseRootComposantE,
-.LacherPriseRootComposantF, 
-.LacherPriseRootComposantG,
-.LacherPriseRootComposantH,
-.LacherPriseRootComposantI,
-.LacherPriseRootComposantJ,
-.LacherPriseRootComposantK,
-.LacherPriseRootComposantL,
-.LacherPriseRootComposantM {
+    max-width: 900px;
+    margin-bottom: 2rem;
+  }
+  
+  .TitleH1 {
+    font-size: 2rem;
+    color: var(--ColorDarkA);
+    margin-bottom: 0.5rem;
+  }
+  
+  .Subtitle {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .Content {
     display: flex;
-    justify-content: start;
-    align-items: center;
     flex-direction: column;
+    gap: 2.5rem;
+    max-width: 900px;
     width: 100%;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-}
-
-.TitleH2 {
-    font-size: calc(var(--h2) + 2px);
-    color: var(--ColorBlack);
-    margin: 20px 24px 20px 24px;
-    padding: 0px;
-    border: 0px;
-    width: calc(100% - 48px);
-}
-
-.Text {
-    font-size: var(--p);
-    color: var(--ColorBlack);
-    margin: 0px 24px 0px 24px;
-    border: 0px;
-    padding: 0px 0px 20px 0px;
-    width: calc(100% - 48px);
-}
+  }
+  
+  .Article {
+    background-color: var(--ColorLightA);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .TitleH2 {
+    font-size: var(--TitleSizeA);
+    color: var(--ColorPrimaryADarkA);
+    margin-bottom: 1rem;
+  }
+  
+  .Text {
+    font-size: var(--TextSizeA);
+    color: var(--ColorDarkA);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .CTA {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-top: 2px solid var(--ColorPrimaryA);
+  }
+  
+  .CTA_Title {
+    font-size: 1.6rem;
+    color: var(--ColorPrimaryADarkA);
+    margin-bottom: 1rem;
+  }
+  
+  .CTA_Text {
+    color: #444;
+    margin-bottom: 1.5rem;
+  }
+  
+  .CTA_Button {
+    background-color: var(--ColorPrimaryA);
+    color: white;
+    padding: 0.8rem 1.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .CTA_Button:hover {
+    background-color: var(--ColorPrimaryADarkA);
+  }
+  
+  @media (max-width: 600px) {
+    .TitleH1 {
+      font-size: 1.6rem;
+    }
+  
+    .TitleH2 {
+      font-size: 1.2rem;
+    }
+  
+    .Text {
+      font-size: 0.95rem;
+    }
+  }
+  
