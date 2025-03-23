@@ -9,7 +9,7 @@ function EmotionRoot() {
                 </h1>
             </header>
 
-            <article className={style.AnxieteRootComposantA}>
+            <article className={style.EmotionRootComposantA}>
                 <h2 className={style.TitleH2}>
                     CALMER ÉMOTION : L'art de maîtriser ses émotions et celles des autres
                 </h2>
@@ -19,7 +19,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantB}>
+            <article className={style.EmotionRootComposantB}>
                 <h2 className={style.TitleH2}>
                     Et si tes émotions étaient des Guides ?
                 </h2>
@@ -43,7 +43,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantC}>
+            <article className={style.EmotionRootComposantC}>
                 <h2 className={style.TitleH2}>
                     Premièrement,
                 </h2>
@@ -63,7 +63,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantD}>
+            <article className={style.EmotionRootComposantD}>
                 <h2 className={style.TitleH2}>
                    Deuxièmement,
                 </h2>
@@ -87,7 +87,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantE}>
+            <article className={style.EmotionRootComposantE}>
                 <h2 className={style.TitleH2}>
                    Troisièmement,
                 </h2>
@@ -122,7 +122,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantF}>
+            <article className={style.EmotionRootComposantF}>
                 <h2 className={style.TitleH2}>
                    L’intuition se plante !
                 </h2>
@@ -148,7 +148,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantG}>
+            <article className={style.EmotionRootComposantG}>
                 <h2 className={style.TitleH2}>
                    Il y a 3 piliers pour Maîtriser ses Émotions !
                 </h2>
@@ -172,7 +172,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantH}>
+            <article className={style.EmotionRootComposantH}>
                 <h2 className={style.TitleH2}>
                    Pilier n°2 : Reprendre la Main
                 </h2>
@@ -191,7 +191,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantI}>
+            <article className={style.EmotionRootComposantI}>
                 <h2 className={style.TitleH2}>
                    Pilier n°3 : Agir en Conscience
                 </h2>
@@ -211,7 +211,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantJ}>
+            <article className={style.EmotionRootComposantJ}>
                 <h2 className={style.TitleH2}>
                    Stopper la Dictature Émotionnelle !
                 </h2>
@@ -231,7 +231,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantK}>
+            <article className={style.EmotionRootComposantK}>
                 <h2 className={style.TitleH2}>
                    Ce que tu vas Découvrir :
                 </h2>
@@ -281,7 +281,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantL}>
+            <article className={style.EmotionRootComposantL}>
                 <h2 className={style.TitleH2}>
                    C’est beaucoup plus difficile de ne rien faire !
                 </h2>
@@ -297,7 +297,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantM}>
+            <article className={style.EmotionRootComposantM}>
                 <h2 className={style.TitleH2}>
                    Alors, pourquoi faire comme eux ?!
                 </h2>
@@ -320,71 +320,6 @@ function EmotionRoot() {
 
                 <p className={style.Text}>
                     Et tu auras de quoi être fier(e) du chemin parcouru !"
-                </p>
-            </article>
-            {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantN}>
-                <h2 className={style.TitleH2}>
-                   Le Plan que je te propose est Réaliste !
-                </h2>
-
-                <p className={style.Text}>
-                    Tu n’as pas besoin de disposer de matériel ou de connaissances particulières !
-                </p>
-
-                <p className={style.Text}>
-                    Tu n’as pas besoin de beaucoup de temps. Tous les exercices que je partage tiennent en moins de 20 min / jour. 
-                </p>
-
-                <p className={style.Text}>
-                    Les vidéos et les contenus sont courts, impactants et vont droit au but. Tu disposeras des connaissances théoriques, des exercices 
-                    et du plan d’action.
-                </p>
-
-                <p className={style.Text}>
-                    Si tu as une question, un espace commentaire privé et réactif est disponible sous chaque contenu. <br />
-                    (Je réponds personnellement)
-                </p>
-
-                <p className={style.Text}>
-                    Tu auras accès au contenu sans limitation de durée !
-                </p>
-
-                <p className={style.Text}>
-                    Et enfin ce nouveau programme est protégé par une garantie ! 
-                </p>
-
-                <p className={style.Text}>
-                    Alors, si tu te rendais compte qu’il n’est pas adapté à tes besoins, tu n’aurais qu’à m’écrire pour être Intégralement remboursé 
-                    dans les 30 jours.
-                </p>
-            </article>
-            {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantO}>
-                <h2 className={style.TitleH2}>
-                   Mon engagement…
-                </h2>
-
-                <p className={style.Text}>
-                    Ma passion pour la compréhension de l’esprit humain, mes pratiques et mes formations m’ont permis d’acquérir de précieuses 
-                    connaissances.
-                </p>
-
-                <p className={style.Text}>
-                    Ces connaissances ont pour moi une grande valeur. Et je me suis fait une mission de les partager. Je sais que ce contenu 
-                    pourrait te faire gagner de précieuses années…
-                </p>
-
-                <p className={style.Text}>
-                    Alors, c’est avec joie que je t’ouvre les portes d’un tout Nouveau Programme !
-                </p>
-
-                <p className={style.Text}>
-                    C’est une belle aventure qui démarre.
-                </p>
-
-                <p className={style.Text}>
-                    Accéder Maintenant !
                 </p>
             </article>
         </section>
