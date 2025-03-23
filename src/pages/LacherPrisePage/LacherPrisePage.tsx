@@ -1,6 +1,7 @@
 import style from './LacherPrisePage.module.css';
 import NavRoot from '../../components/NavRoot/NavRoot';
 import LacherPriseRoot from '../../components/LacherPriseRoot/LacherPriseRoot';
+import FooterRoot from '../../components/FooterRoot/FooterRoot';
 
 function LacherPrisePage() {
   return (
@@ -13,7 +14,9 @@ function LacherPrisePage() {
         <LacherPriseRoot />
       </main>
 
-      <footer className={style.Footer}></footer>
+      <footer className={style.Footer}>
+        <FooterRoot />
+      </footer>
     </div>
   );
 }
