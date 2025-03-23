@@ -1,6 +1,7 @@
 import style from './AnxietePage.module.css';
 import NavRoot from '../../components/NavRoot/NavRoot';
 import AnxieteRoot from '../../components/AnxieteRoot/AnxieteRoot';
+import FooterRoot from '../../components/FooterRoot/FooterRoot';
 
 function AnxietePage() {
   return (
@@ -13,7 +14,9 @@ function AnxietePage() {
         <AnxieteRoot />
       </main>
 
-      <footer className={style.Footer}></footer>
+      <footer className={style.Footer}>
+        <FooterRoot />
+      </footer>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import style from './MentionLegalePage.module.css';
 import NavRoot from '../../components/NavRoot/NavRoot';
 import MentionLegaleRoot from '../../components/MentionLegaleRoot/MentionLegaleRoot';
+import FooterRoot from '../../components/FooterRoot/FooterRoot';
 
 function MentionLegalePage() {
   return (
@@ -13,7 +14,9 @@ function MentionLegalePage() {
         <MentionLegaleRoot />
       </main>
 
-      <footer className={style.Footer}></footer>
+      <footer className={style.Footer}>
+        <FooterRoot />
+      </footer>
     </div>
   );
 }
