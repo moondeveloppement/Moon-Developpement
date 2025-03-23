@@ -31,7 +31,7 @@ function MenuNavRoot(Props: MenuNavRootProps) {
       </li>
 
       <li className={`${moduleMenuLi} ${moduleMenuLiTarget3}`}>
-        <Link to="/lacher-prise" className={moduleMenuLink}>Lacher prise</Link>
+        <Link to="/lacher-prise" className={moduleMenuLink}>Lacher Prise</Link>
       </li>
 
       <li className={`${moduleMenuLi} ${moduleMenuLiTarget4}`}>
