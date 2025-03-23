@@ -222,6 +222,77 @@ function LacherPriseRoot() {
                     Ensemble, nous allons décortiquer tout le chemin…
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantI}>
+                <h2 className={style.TitleH2}>
+                    Au programme :
+                </h2>
+
+                <p className={style.Text}>
+                    I. Prendre ses distances avec le mental
+                </p>
+
+                <p className={style.Text}>
+                    Dans la première partie, nous allons observer les mécanismes qui donnent du pouvoir au mental. Nous allons identifier, les 
+                    conditions qui le rendent toxique et le renforcent.
+                </p>
+
+                <p className={style.Text}>
+                    Ensuite, je partagerai avec toi des exercices ciblés pour commencer à t’éloigner de cette attraction maligne. Cette première partie 
+                    pose des bases simples et accessibles à toutes et tous…
+                </p>
+
+                <p className={style.Text}>
+                    Ce qui te donnera le sentiment d’obtenir des résultats encourageants dès le début !
+                </p>
+
+                <p className={style.Text}>
+                    II. L’outil indispensable au lâcher-prise.
+                </p>
+
+                <p className={style.Text}>
+                    Dans la seconde partie, nous verrons pourquoi il est si difficile de maintenir un état de lâcher-prise face à l’adversité.
+                </p>
+
+                <p className={style.Text}>
+                    Nous verrons aussi comment renforcer l’esprit et créer un terrain favorable jour après jour pour préserver notre pureté intérieure.
+                </p>
+
+                <p className={style.Text}>
+                    III. Comment rompre avec le mental
+                </p>
+
+                <p className={style.Text}>
+                    Ici, nous verrons comment rompre avec la partie toxique du mental. C’est-à-dire, comment reconnaître, refuser et distancer 
+                    nos propres idéologies.
+                </p>
+
+                <p className={style.Text}>
+                    Comment gérer avec sagesse notre rapport à l’échec et au succès et adopter un regard neuf à chaque instant de vie. C’est une 
+                    véritable épuration de l’être.
+                </p>
+
+                <p className={style.Text}>
+                    Nous ne supprimons rien, nous cultivons ce qui est bon, juste et beau pour laisser à ce qui ne l’est pas :
+                </p>
+
+                <p className={style.Text}>
+                    « L’opportunité de disparaître par lui-même. »
+                </p>
+
+                <p className={style.Text}>
+                    IV. Créer un espace dédié au lâcher-prise
+                </p>
+
+                <p className={style.Text}>
+                    Puis nous terminerons avec une appréhension très pratique afin de distiller ce précieux apprentissage instant après instant.
+                </p>
+
+                <p className={style.Text}>
+                    Nous verrons 3 manières d’installer une vigilance saine au quotidien et discuterons de la vision nécessaire pour maintenir cette 
+                    attention.
+                </p>
+            </article>
         </section>
     )
 }
