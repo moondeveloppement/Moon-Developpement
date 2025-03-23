@@ -349,6 +349,45 @@ function LacherPriseRoot() {
                     Il n’y a qu’à suivre le chemin. Et expérimenter à ton rythme.
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantL}>
+                <h2 className={style.TitleH2}>
+                    Aucun prérequis n’est nécessaire :
+                </h2>
+
+                <p className={style.Text}>
+                    Tu peux te lancer sans crainte. <br />
+                    C’est un contenu abordable, pratique et simple.
+                </p>
+
+                <p className={style.Text}>
+                    Tous les outils sont mis à ta disposition dans l’ordre. <br />
+                    Il n’y a qu’à suivre le chemin. Et expérimenter à ton rythme.
+                </p>
+            </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantM}>
+                <h2 className={style.TitleH2}>
+                    Évidemment, il n’y a aucune obligation !
+                </h2>
+
+                <p className={style.Text}>
+                    Tu peux continuer sur ton chemin du moment sans ne rien changer. Ou t’autoriser un chemin d’apprentissage focalisé sur cette 
+                    intention de lâcher ce qui encombre ta vision et pèse sur ton cœur.
+                </p>
+
+                <p className={style.Text}>
+                    La porte s’ouvre aujourd’hui et restera ouverte pendant une semaine.
+                </p>
+
+                <p className={style.Text}>
+                    C’est avec joie que je te propose de me retrouver à l’entraînement !
+                </p>
+
+                <p className={style.Text}>
+                    À tout de suite !
+                </p>
+            </article>
         </section>
     )
 }
