@@ -23,19 +23,19 @@ function MenuNavRoot(Props: MenuNavRootProps) {
 
       {/* Menu déroulant pour Portraits */}
       <li className={`${moduleMenuLi} ${moduleMenuLiTarget1}`}>
-        <Link to="anxiete" className={moduleMenuLink}>Calmer l'Anxiété</Link>
+        <Link to="/anxiete" className={moduleMenuLink}>Calmer l'Anxiété</Link>
       </li>
 
       <li className={`${moduleMenuLi} ${moduleMenuLiTarget2}`}>
-        <Link to="emotion" className={moduleMenuLink}>Calmer les Emotions</Link>
+        <Link to="/emotion" className={moduleMenuLink}>Calmer les Emotions</Link>
       </li>
 
       <li className={`${moduleMenuLi} ${moduleMenuLiTarget3}`}>
-        <Link to="lacher-prise" className={moduleMenuLink}>Lacher prise</Link>
+        <Link to="/lacher-prise" className={moduleMenuLink}>Lacher prise</Link>
       </li>
 
       <li className={`${moduleMenuLi} ${moduleMenuLiTarget4}`}>
-        <Link to="contact" className={moduleMenuLink}>Contact</Link>
+        <Link to="/contact" className={moduleMenuLink}>Contact</Link>
       </li>
     </ul>
   );
