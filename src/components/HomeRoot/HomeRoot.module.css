@@ -1,0 +1,101 @@
+@import "../../root.css";
+  
+  .HomeRoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: var(--Padding);
+    box-sizing: border-box;
+  }
+  
+  .HeroSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  
+  .HeroText {
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .Title {
+    font-size: var(--TitleSize);
+    color: var(--ColorDark);
+    margin-bottom: 1rem;
+  }
+  
+  .Subtitle {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .CTA {
+    background-color: var(--ColorPrimary);
+    color: white;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  
+  .CTA:hover {
+    background-color: var(--ColorPrimaryDark);
+  }
+  
+  .SectionQuote {
+    background-color: var(--ColorLight);
+    padding: 2rem;
+    margin: 2rem 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .Quote {
+    font-style: italic;
+    color: var(--ColorDark);
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .SectionIntro {
+    max-width: 900px;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .SectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--ColorPrimaryDark);
+  }
+  
+  .SectionText {
+    font-size: var(--TextSize);
+    color: var(--ColorDark);
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .HeroText {
+      padding: 0 1rem;
+    }
+  
+    .Quote {
+      font-size: 1rem;
+    }
+  }
+  
