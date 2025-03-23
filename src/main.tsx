@@ -9,6 +9,7 @@ import AnxietePage from './pages/AnxietePage/AnxietePage.tsx';
 import EmotionPage from './pages/EmotionPage/EmotionPage.tsx';
 import LacherPrisePage from './pages/LacherPrisePage/LacherPrisePage.tsx';
 import ContactPage from './pages/ContactPage/ContactPage.tsx';
+import MentionLegalePage from './pages/MentionLegalePage/MentionLegalePage.tsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
      {
        path: "/contact",
        element: <ContactPage />,
+     },
+     {
+       path: "/mention-legale",
+       element: <MentionLegalePage />,
      },
     ]
   },
