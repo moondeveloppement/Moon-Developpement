@@ -1,4 +1,5 @@
 import style from "./EmotionRoot.module.css";
+import { Link } from "react-router-dom";
 
 function EmotionRoot() {
     return (
@@ -130,7 +131,7 @@ function EmotionRoot() {
                     <p className={style.CTA_Text}>
                         Transforme ton rapport aux émotions et développe une sérénité intérieure durable.
                     </p>
-                    <a href="/contact" className={style.CTA_Button}>🌟 Je passe à l’action</a>
+                    <Link to="/contact" className={style.CTA_Button}>🌟 Je passe à l’action</Link>
                 </div>
             </div>
         </section>
