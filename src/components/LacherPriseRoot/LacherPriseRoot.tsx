@@ -91,6 +91,47 @@ function LacherPriseRoot() {
                     Mais rien ne change…
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantE}>
+                <h2 className={style.TitleH2}>
+                    Un jour, j’ai entendu un vieux sage dire :
+                </h2>
+
+                <p className={style.Text}>
+                    « L’intérieur est extérieur, et l’extérieur est intérieur.
+                </p>
+
+                <p className={style.Text}>
+                    L’interaction entre ce que nous ressentons et ce que nous vivons définit les règles d’un jeu de miroir déconcertant pour celles et 
+                    ceux qui aspirent à contrôler leur monde. »
+                </p>
+
+                <p className={style.Text}>
+                    Et s’il avait raison :
+                </p>
+
+                <p className={style.Text}>
+                    Et si le secret de la paix résidait dans notre capacité à lâcher-prise ?
+                </p>
+
+                <p className={style.Text}>
+                    Lâcher pour se libérer ?
+                </p>
+
+                <p className={style.Text}>
+                    On entend souvent parler du lâcher-prise en tant que concept. <br />
+                    Ce qui laisse la place au mental pour dire :
+                </p>
+
+                <p className={style.Text}>
+                    « J’y crois. » ou « Je n’y crois pas ! » <br />
+                    « Je veux. » ou « je ne veux pas ! »
+                </p>
+
+                <p className={style.Text}>
+                    Mais en faisons-nous l’expérience ?
+                </p>
+            </article>
         </section>
     )
 }
