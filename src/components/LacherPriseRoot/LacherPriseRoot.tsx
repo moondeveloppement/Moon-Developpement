@@ -5,41 +5,43 @@ function LacherPriseRoot() {
         <section className={style.LacherPriseRoot}>
             <header className={style.ContainerTitle}>
                 <h1 className={style.TitleH1}>
-                    Calmer les LacherPrises
+                    Lacher Prises
                 </h1>
             </header>
 
             <article className={style.LacherPriseRootComposantA}>
                 <h2 className={style.TitleH2}>
-                    CALMER ÉMOTION : L'art de maîtriser ses émotions et celles des autres
+                    LÂCHE PRISE : Libérez-vous de l'emprise Toxique du Mental
                 </h2>
 
                 <p className={style.Text}>
-                    La méthode pour calmer, décrypter et vous libérer des émotions douloureuses sans les réprimer ni rompre avec vous-mêmes.
+                    L'approche Minimaliste pour en finir avec les charges mentales, l'omniprésence du contrôle et le sentiment de devoir tout gérer.
                 </p>
             </article>
             {/*--------------------------------------------------*/}
             <article className={style.LacherPriseRootComposantB}>
                 <h2 className={style.TitleH2}>
-                    Et si tes émotions étaient des Guides ?
+                    Et si nous nous étions habitués à un bavardage toxique ?
                 </h2>
 
                 <p className={style.Text}>
-                    Imagine que les émotions « douloureuses » ne soient plus des obstacles à surmonter... <br />
-                    Mais de puissants alliés pour agir en accord avec tes convictions.
+                    Sans nous en rendre compte, nous pourrions bien laisser notre petite voix intérieure filer un mauvais coton...
                 </p>
 
                 <p className={style.Text}>
-                    Je ne sais pas ce que tu penses… <br />
-                    Mais la majorité des gens font erreur !
+                    Et lui laisser dénaturer nos perceptions au point de rendre le quotidien pénible.
                 </p>
                 
                 <p className={style.Text}>
-                    Ils ont des idées reçues très ancrées sur leurs émotions. 
+                    Si bien que certaines pensées nous empêcheraient de voir le monde avec douceur.
                 </p>
 
                 <p className={style.Text}>
-                    Ils ne s’en rendent pas compte, mais ces idées sabotent leur potentiel ! 
+                    Et nous ne pourrions même plus percevoir la beauté ou la bienveillance...
+                </p>
+
+                <p className={style.Text}>
+                    Comme s'il devait toujours y avoir "Anguille sous Roche !"
                 </p>
             </article>
         </section>

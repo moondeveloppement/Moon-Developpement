@@ -41,9 +41,7 @@
 .LacherPriseRootComposantJ,
 .LacherPriseRootComposantK,
 .LacherPriseRootComposantL,
-.LacherPriseRootComposantM,
-.LacherPriseRootComposantN,
-.LacherPriseRootComposantO {
+.LacherPriseRootComposantM {
     display: flex;
     justify-content: start;
     align-items: center;
