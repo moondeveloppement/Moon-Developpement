@@ -333,6 +333,22 @@ function LacherPriseRoot() {
                     " Et il se goute… Il se vit ! "
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantK}>
+                <h2 className={style.TitleH2}>
+                    Aucun prérequis n’est nécessaire :
+                </h2>
+
+                <p className={style.Text}>
+                    Tu peux te lancer sans crainte. <br />
+                    C’est un contenu abordable, pratique et simple.
+                </p>
+
+                <p className={style.Text}>
+                    Tous les outils sont mis à ta disposition dans l’ordre. <br />
+                    Il n’y a qu’à suivre le chemin. Et expérimenter à ton rythme.
+                </p>
+            </article>
         </section>
     )
 }
