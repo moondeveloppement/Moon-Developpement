@@ -199,6 +199,29 @@ function LacherPriseRoot() {
                     Tu peux la rejoindre dès maintenant. En 3 clics, elle s’ajoutera à ton espace membre.
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantH}>
+                <h2 className={style.TitleH2}>
+                    C’est un contenu inédit !
+                </h2>
+
+                <p className={style.Text}>
+                    J’ai remarqué que même avec de l’expérience, l’emprise de certains modes de pensées, ou d’émotions fortement ancrées dans le 
+                    passé reste très difficile à distancer.
+                </p>
+
+                <p className={style.Text}>
+                    C’est pour aider celles et ceux qui se sentent encore limité(e)s dans leur pratique que j’ai créé ce programme.
+                </p>
+
+                <p className={style.Text}>
+                    Son intention est d’accompagner le lâcher-prise étape par étape.
+                </p>
+
+                <p className={style.Text}>
+                    Ensemble, nous allons décortiquer tout le chemin…
+                </p>
+            </article>
         </section>
     )
 }
