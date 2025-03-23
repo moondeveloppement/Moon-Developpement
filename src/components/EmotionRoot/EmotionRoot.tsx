@@ -25,12 +25,12 @@ function EmotionRoot() {
                 </h2>
 
                 <p className={style.Text}>
-                    Imagine que les émotions « douloureuses » ne soient plus des obstacles à surmonter...
+                    Imagine que les émotions « douloureuses » ne soient plus des obstacles à surmonter... <br />
                     Mais de puissants alliés pour agir en accord avec tes convictions.
                 </p>
 
                 <p className={style.Text}>
-                    Je ne sais pas ce que tu penses…
+                    Je ne sais pas ce que tu penses… <br />
                     Mais la majorité des gens font erreur !
                 </p>
                 
@@ -233,21 +233,51 @@ function EmotionRoot() {
             {/*--------------------------------------------------*/}
             <article className={style.AnxieteRootComposantJ}>
                 <h2 className={style.TitleH2}>
-                   Stopper la Dictature Émotionnelle !
+                   Ce que tu vas Découvrir :
                 </h2>
 
                 <p className={style.Text}>
-                    Imagine que d’ici 1 à 2 semaines, tu ne te sentes plus stressé(e) à l’idée de ressentir certaines émotions. Avec un peu de pratique, 
-                    tu sauras comment les maîtriser et réduire leur impact négatif sur ton corps. 
+                    Ensemble, nous verrons comment entrainer ton esprit à stopper et à gérer les émotions les plus intenses !  
                 </p>
 
                 <p className={style.Text}>
-                    Tu sauras comment éviter les blocages et te libérer facilement des charges émotionnelles résiduelles. Cette maîtrise naissante 
-                    t’aidera à gagner en confiance ! Ce qui aura un impact positif sur ton estime et sur tes relations.
+                    Tu apprendras une posture mentale puissante pour sortir d'états émotionnels douloureux.
                 </p>
                 
                 <p className={style.Text}>
-                    Tu te sentiras plus en sécurité face à des situations inconfortables… Et capable de relever des défis que tu pensais hors de portée.
+                    Nous verrons des techniques ciblées pour t’entrainer à "Défusionner" avec tes émotions. <br />
+                    Tu vas apprendre à sortir de l'état d'hypnose émotionnelle qui domine la plupart des gens. 
+                </p>
+
+                <p className={style.Text}>
+                    Tu vas découvrir comment réaliser une décharge émotionnelle pour te libérer des tensions accumulées. <br />
+                    Ce qui te permettra de relâcher le corps en cas de blocage ou de perte de contrôle.
+                </p>
+
+                <p className={style.Text}>
+                    Tu vas apprendre des outils d’auto-analyse pour distancer les emprises émotionnelles. 
+                </p>
+
+                <p className={style.Text}>
+                    Tu vas découvrir une méthode pour identifier les valeurs et les convictions qui se cachent derrière tes émotions les plus 
+                    douloureuses. 
+                </p>
+
+                <p className={style.Text}>
+                    Nous verrons comment utiliser ces valeurs comme de puissants leviers d’action pour entreprendre des projets en suspens ou bloqués.
+                </p>
+
+                <p className={style.Text}>
+                    Tu sauras passer d’une soumission émotionnelle à une posture d’actions et de confiance !
+                </p>
+
+                <p className={style.Text}>
+                    Tu auras toutes les clés pour définir de Nouveaux Objectifs, une technique très efficace pour commencer à agir tout en restant 
+                    en accord avec tes convictions profondes...
+                </p>
+
+                <p className={style.Text}>
+                    Et un plan d’action pour sortir de l’inertie et remettre du mouvement dans ta vie ! 
                 </p>
             </article>
         </section>
