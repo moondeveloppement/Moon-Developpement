@@ -172,7 +172,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantG}>
+            <article className={style.AnxieteRootComposantH}>
                 <h2 className={style.TitleH2}>
                    Pilier n°2 : Reprendre la Main
                 </h2>
@@ -191,7 +191,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantH}>
+            <article className={style.AnxieteRootComposantI}>
                 <h2 className={style.TitleH2}>
                    Pilier n°3 : Agir en Conscience
                 </h2>
@@ -211,7 +211,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantI}>
+            <article className={style.AnxieteRootComposantJ}>
                 <h2 className={style.TitleH2}>
                    Stopper la Dictature Émotionnelle !
                 </h2>
@@ -231,7 +231,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantJ}>
+            <article className={style.AnxieteRootComposantK}>
                 <h2 className={style.TitleH2}>
                    Ce que tu vas Découvrir :
                 </h2>
@@ -281,7 +281,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantK}>
+            <article className={style.AnxieteRootComposantL}>
                 <h2 className={style.TitleH2}>
                    C’est beaucoup plus difficile de ne rien faire !
                 </h2>
@@ -297,7 +297,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantL}>
+            <article className={style.AnxieteRootComposantM}>
                 <h2 className={style.TitleH2}>
                    Alors, pourquoi faire comme eux ?!
                 </h2>
@@ -323,7 +323,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantM}>
+            <article className={style.AnxieteRootComposantN}>
                 <h2 className={style.TitleH2}>
                    Le Plan que je te propose est Réaliste !
                 </h2>
@@ -360,7 +360,7 @@ function EmotionRoot() {
                 </p>
             </article>
             {/*--------------------------------------------------*/}
-            <article className={style.AnxieteRootComposantN}>
+            <article className={style.AnxieteRootComposantO}>
                 <h2 className={style.TitleH2}>
                    Mon engagement…
                 </h2>
