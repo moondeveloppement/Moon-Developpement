@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client'
 // import des pages
 import App from './App.tsx'
 import HomePage from './pages/HomePage/HomePage.tsx';
-import AnxieteRoot from './components/AnxieteRoot/AnxieteRoot.tsx';
+import AnxietePage from './pages/AnxietePage/AnxietePage.tsx';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
      },
      {
        path: "/anxiete",
-       element: <AnxieteRoot />,
+       element: <AnxietePage />,
      },
     ]
   },

@@ -1,4 +1,14 @@
-.AnxieteRootComposantA {
+.AnxieteRootComposantA,
+.AncieteRootComposantB, 
+.AncieteRootComposantC, 
+.AncieteRootComposantD, 
+.AncieteRootComposantE,
+.AncieteRootComposantF, 
+.AncieteRootComposantG,
+.AncieteRootComposantH,
+.AncieteRootComposantI,
+.AnxieteRootComposantJ,
+.AncieteRootComposantK {
     display: flex;
     justify-content: start;
     align-items: center;
