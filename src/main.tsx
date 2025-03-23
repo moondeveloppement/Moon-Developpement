@@ -7,6 +7,7 @@ import App from './App.tsx'
 import HomePage from './pages/HomePage/HomePage.tsx';
 import AnxietePage from './pages/AnxietePage/AnxietePage.tsx';
 import EmotionPage from './pages/EmotionPage/EmotionPage.tsx';
+import LacherPrisePage from './pages/LacherPrisePage/LacherPrisePage.tsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
      {
        path: "/emotion",
        element: <EmotionPage />,
+     },
+     {
+       path: "/lacher-prise",
+       element: <LacherPrisePage />,
      },
     ]
   },
