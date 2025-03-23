@@ -280,6 +280,38 @@ function EmotionRoot() {
                     Et un plan d’action pour sortir de l’inertie et remettre du mouvement dans ta vie ! 
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.AnxieteRootComposantK}>
+                <h2 className={style.TitleH2}>
+                   C’est beaucoup plus difficile de ne rien faire !
+                </h2>
+
+                <p className={style.Text}>
+                    Plus on esquive la souffrance plus elle s’accumule… Elle se distille dans tous les aspects de la vie et ronge nos espoirs et nos 
+                    rêves d’enfant.
+                </p>
+
+                <p className={style.Text}>
+                    Des millions de personnes acceptent la souffrance pour le confort de ne pas avoir à changer. <br />
+                    Mais cette récompense à court terme les hantera jusqu’à leur dernier souffle.
+                </p>
+            </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.AnxieteRootComposantL}>
+                <h2 className={style.TitleH2}>
+                   C’est beaucoup plus difficile de ne rien faire !
+                </h2>
+
+                <p className={style.Text}>
+                    Plus on esquive la souffrance plus elle s’accumule… Elle se distille dans tous les aspects de la vie et ronge nos espoirs et nos 
+                    rêves d’enfant.
+                </p>
+
+                <p className={style.Text}>
+                    Des millions de personnes acceptent la souffrance pour le confort de ne pas avoir à changer. <br />
+                    Mais cette récompense à court terme les hantera jusqu’à leur dernier souffle.
+                </p>
+            </article>
         </section>
     )
 }
