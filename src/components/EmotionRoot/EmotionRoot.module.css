@@ -9,7 +9,7 @@
   }
   
   .EmotionRoot {
-    width: 100%;
+    width: calc(100% - 48px);
     padding: var(--Padding);
     background: white;
     display: flex;
