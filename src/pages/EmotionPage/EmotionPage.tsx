@@ -1,6 +1,7 @@
 import style from './EmotionPage.module.css';
 import NavRoot from '../../components/NavRoot/NavRoot';
 import EmotionRoot from '../../components/EmotionRoot/EmotionRoot';
+import FooterRoot from '../../components/FooterRoot/FooterRoot';
 
 function EmotionPage() {
   return (
@@ -13,7 +14,9 @@ function EmotionPage() {
         <EmotionRoot />
       </main>
 
-      <footer className={style.Footer}></footer>
+      <footer className={style.Footer}>
+        <FooterRoot />
+      </footer>
     </div>
   );
 }
