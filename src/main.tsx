@@ -6,6 +6,7 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import HomePage from './pages/HomePage/HomePage.tsx';
 import AnxietePage from './pages/AnxietePage/AnxietePage.tsx';
+import EmotionPage from './pages/EmotionPage/EmotionPage.tsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
      {
        path: "/anxiete",
        element: <AnxietePage />,
+     },
+     {
+       path: "/emotion",
+       element: <EmotionPage />,
      },
     ]
   },
