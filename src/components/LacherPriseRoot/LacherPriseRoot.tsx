@@ -293,6 +293,46 @@ function LacherPriseRoot() {
                     attention.
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantJ}>
+                <h2 className={style.TitleH2}>
+                    C’est un très beau chemin de transformation !
+                </h2>
+
+                <p className={style.Text}>
+                    J’ai réalisé que ce n’était pas si simple de lâcher prise lorsqu’on n’est pas guidé(e) dans cette voie. Et que la pratique seule 
+                    ne permet pas toujours de trouver ce chemin.
+                </p>
+
+                <p className={style.Text}>
+                    Alors, dans cette formation, tout ce que nous disons et faisons va dans le sens de cette intention :
+                </p>
+
+                <p className={style.Text}>
+                    Comment faire l’expérience du lâcher-prise ?
+                </p>
+
+                <p className={style.Text}>
+                    Bien sûr, nous parlerons un peu…
+                </p>
+
+                <p className={style.Text}>
+                    Mais nous ferons l’expérience de ce qui est dit à chaque fois !
+                </p>
+
+                <p className={style.Text}>
+                    Le lâcher-prise n’est pas un concept ou une métaphore. Ce n’est pas quelque chose en lequel nous devrions croire ou dont il 
+                    faudrait parler.
+                </p>
+
+                <p className={style.Text}>
+                    Avant tout, c’est un processus intérieur…
+                </p>
+
+                <p className={style.Text}>
+                    " Et il se goute… Il se vit ! "
+                </p>
+            </article>
         </section>
     )
 }
