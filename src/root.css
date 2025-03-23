@@ -17,6 +17,22 @@
     --backgroundWhite: white;
     --BackgroudMenuBurger: rgba(218, 216, 216, 0.882);
 
+    /* Couleur des pages version 2 */
+    --ColorPrimary: #6b9e8c;
+    --ColorPrimaryDark: #507e6d;
+    --ColorLight: #f7f9f9;
+    --ColorDark: #2e2e2e;
+    --TextSize: 1rem;
+    --TitleSize: 1.4rem;
+    --Padding: 24px;
+
+    --ColorPrimaryA: #a09cf0;
+    --ColorPrimaryADarkA: #6e6acb;
+    --ColorLightA: #f9f9fb;
+    --ColorDarkA: #2c2c2c;
+    --TextSizeA: 1rem;
+    --TitleSizeA: 1.4rem;
+    --PaddingA: 24px;
     /* Autre paramètre de dépendance */
     --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
 
