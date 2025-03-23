@@ -1,0 +1,73 @@
+.EmotionRoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.ContainerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.TitleH1 {
+    font-size: calc(var(--h1) + 2px);
+    text-align: center;
+    color: var(--ColorBlack);
+    margin: 20px 24px 20px 24px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+}
+
+.EmotionRootComposantA,
+.EmotionRootComposantB, 
+.EmotionRootComposantC, 
+.EmotionRootComposantD, 
+.EmotionRootComposantE,
+.EmotionRootComposantF, 
+.EmotionRootComposantG,
+.EmotionRootComposantH,
+.EmotionRootComposantI,
+.EmotionRootComposantJ,
+.EmotionRootComposantK,
+.EmotionRootComposantL,
+.EmotionRootComposantM,
+.EmotionRootComposantN,
+.EmotionRootComposantO {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.TitleH2 {
+    font-size: calc(var(--h2) + 2px);
+    color: var(--ColorBlack);
+    margin: 20px 24px 20px 24px;
+    padding: 0px;
+    border: 0px;
+    width: calc(100% - 48px);
+}
+
+.Text {
+    font-size: var(--p);
+    color: var(--ColorBlack);
+    margin: 0px 24px 0px 24px;
+    border: 0px;
+    padding: 0px 0px 20px 0px;
+    width: calc(100% - 48px);
+}
