@@ -132,6 +132,37 @@ function LacherPriseRoot() {
                     Mais en faisons-nous l’expérience ?
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantF}>
+                <h2 className={style.TitleH2}>
+                    Lâcher prise : C’est se libérer de l’influence d’une illusion
+                </h2>
+
+                <p className={style.Text}>
+                    C’est permettre à son esprit de s’épurer totalement. <br />
+                    C’est ouvrir son attention à ce qui est pleinement vivant en soi. <br />
+                    C’est élargir son spectre de perception. <br />
+                    C’est accéder au plus bel état de l’être <br />
+                    C’est se libérer d’un poids. <br />
+                    C'est s’alléger...
+                </p>
+
+                <p className={style.Text}>
+                    Mais c’est un processus.
+                </p>
+
+                <p className={style.Text}>
+                    Nous pouvons tous faire l’expérience d’un instant de lâcher-prise !
+                </p>
+
+                <p className={style.Text}>
+                    Mais il est plus difficile de laisser cet état d’être s’installer dans notre vie de tous les jours pour devenir la nouvelle norme.
+                </p>
+
+                <p className={style.Text}>
+                    Pourtant, si c’était le cas, nous serions libéré(e)s de cet espace de contrôle que le mental se donne tant de mal à créer.
+                </p>
+            </article>
         </section>
     )
 }
