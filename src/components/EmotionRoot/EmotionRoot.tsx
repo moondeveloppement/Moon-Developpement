@@ -322,6 +322,43 @@ function EmotionRoot() {
                     Et tu auras de quoi être fier(e) du chemin parcouru !"
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.AnxieteRootComposantM}>
+                <h2 className={style.TitleH2}>
+                   Le Plan que je te propose est Réaliste !
+                </h2>
+
+                <p className={style.Text}>
+                    Tu n’as pas besoin de disposer de matériel ou de connaissances particulières !
+                </p>
+
+                <p className={style.Text}>
+                    Tu n’as pas besoin de beaucoup de temps. Tous les exercices que je partage tiennent en moins de 20 min / jour. 
+                </p>
+
+                <p className={style.Text}>
+                    Les vidéos et les contenus sont courts, impactants et vont droit au but. Tu disposeras des connaissances théoriques, des exercices 
+                    et du plan d’action.
+                </p>
+
+                <p className={style.Text}>
+                    Si tu as une question, un espace commentaire privé et réactif est disponible sous chaque contenu. <br />
+                    (Je réponds personnellement)
+                </p>
+
+                <p className={style.Text}>
+                    Tu auras accès au contenu sans limitation de durée !
+                </p>
+
+                <p className={style.Text}>
+                    Et enfin ce nouveau programme est protégé par une garantie ! 
+                </p>
+
+                <p className={style.Text}>
+                    Alors, si tu te rendais compte qu’il n’est pas adapté à tes besoins, tu n’aurais qu’à m’écrire pour être Intégralement remboursé 
+                    dans les 30 jours.
+                </p>
+            </article>
         </section>
     )
 }
