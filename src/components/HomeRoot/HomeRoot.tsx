@@ -2,7 +2,7 @@ import style from './HomeRoot.module.css';
 
 function HomeRoot() {
   return (
-    <main className={style.HomeRoot}>
+    <section className={style.HomeRoot}>
       {/* Hero Section */}
       <section className={style.HeroSection}>
         <div className={style.HeroText}>
@@ -62,7 +62,7 @@ function HomeRoot() {
           plus de clarté et plus d’harmonie intérieure. 🌸
         </p>
       </section>
-    </main>
+    </section>
   );
 }
 

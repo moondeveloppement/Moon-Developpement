@@ -1,6 +1,7 @@
 import style from './HomePage.module.css';
 import NavRoot from '../../components/NavRoot/NavRoot';
 import HomeRoot from '../../components/HomeRoot/HomeRoot';
+import FooterRoot from '../../components/FooterRoot/FooterRoot';
 
 function HomePage() {
   return (
@@ -13,7 +14,9 @@ function HomePage() {
         <HomeRoot />
       </main>
 
-      <footer className={style.Footer}></footer>
+      <footer className={style.Footer}>
+        <FooterRoot />
+      </footer>
     </div>
   );
 }
