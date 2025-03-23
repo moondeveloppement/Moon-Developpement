@@ -1,4 +1,5 @@
 import style from "./AnxieteRoot.module.css";
+import AnxieteRootComposantA from "./AnxieteComposantRoot/AnxieteRootComposantA/AnxieteRootComposantA";
 
 function AnxieteRoot() {
     return (
@@ -8,6 +9,8 @@ function AnxieteRoot() {
                     Calmer l'Anxiété
                 </h1>
             </header>
+
+            <AnxieteRootComposantA />
         </section>
     )
 }
