@@ -359,6 +359,34 @@ function EmotionRoot() {
                     dans les 30 jours.
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.AnxieteRootComposantN}>
+                <h2 className={style.TitleH2}>
+                   Mon engagement…
+                </h2>
+
+                <p className={style.Text}>
+                    Ma passion pour la compréhension de l’esprit humain, mes pratiques et mes formations m’ont permis d’acquérir de précieuses 
+                    connaissances.
+                </p>
+
+                <p className={style.Text}>
+                    Ces connaissances ont pour moi une grande valeur. Et je me suis fait une mission de les partager. Je sais que ce contenu 
+                    pourrait te faire gagner de précieuses années…
+                </p>
+
+                <p className={style.Text}>
+                    Alors, c’est avec joie que je t’ouvre les portes d’un tout Nouveau Programme !
+                </p>
+
+                <p className={style.Text}>
+                    C’est une belle aventure qui démarre.
+                </p>
+
+                <p className={style.Text}>
+                    Accéder Maintenant !
+                </p>
+            </article>
         </section>
     )
 }
