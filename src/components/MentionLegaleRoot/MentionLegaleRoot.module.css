@@ -1,0 +1,48 @@
+.MentionLegaleRoot {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: Arial, sans-serif;
+    color: #1f1f1f;
+    line-height: 1.7;
+    background-color: #fff;
+  }
+  
+  .MentionLegaleRoot h1 {
+    font-size: 2rem;
+    color: #6c8d6d;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .MentionLegaleRoot h2 {
+    font-size: 1.4rem;
+    color: #a6c0a0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .MentionLegaleRoot p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    white-space: pre-line;
+  }
+  
+  @media (max-width: 768px) {
+    .MentionLegaleRoot {
+      padding: 1.5rem 1rem;
+    }
+  
+    .MentionLegaleRoot h1 {
+      font-size: 1.6rem;
+    }
+  
+    .MentionLegaleRoot h2 {
+      font-size: 1.2rem;
+    }
+  
+    .MentionLegaleRoot p {
+      font-size: 0.95rem;
+    }
+  }
+  
