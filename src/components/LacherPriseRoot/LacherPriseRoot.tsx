@@ -163,6 +163,42 @@ function LacherPriseRoot() {
                     Pourtant, si c’était le cas, nous serions libéré(e)s de cet espace de contrôle que le mental se donne tant de mal à créer.
                 </p>
             </article>
+            {/*--------------------------------------------------*/}
+            <article className={style.LacherPriseRootComposantG}>
+                <h2 className={style.TitleH2}>
+                    Cela m’est venu dans une pratique
+                </h2>
+
+                <p className={style.Text}>
+                    J’ai ouvert les yeux et me suis décidé à créer une méthode pour guider le lâcher-prise. J’ai identifié tous les obstacles qui nous 
+                    empêchent de préserver cet espace de paix intérieure. Et un plan m’est apparu…
+                </p>
+
+                <p className={style.Text}>
+                    L’idée est très simple :
+                </p>
+
+                <p className={style.Text}>
+                    « Comment retrouver et cultiver cet état de liberté intérieur à chaque instant ? »
+                </p>
+
+                <p className={style.Text}>
+                    Alors, j’en ai fait une toute nouvelle formation.
+                </p>
+
+                <p className={style.Text}>
+                    La voici...
+                </p>
+
+                <p className={style.Text}>
+                    LÂCHE PRISE : La Méthode pour se libérer de l'emprise toxique du Mental
+                </p>
+
+                <p className={style.Text}>
+                    L’offre de lancement qui permet d’y accéder commence aujourd’hui ! <br />
+                    Tu peux la rejoindre dès maintenant. En 3 clics, elle s’ajoutera à ton espace membre.
+                </p>
+            </article>
         </section>
     )
 }
